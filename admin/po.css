@@ -1,0 +1,126 @@
+.bulding{
+  top: 0;
+  overflow: auto;
+  height: 100%;
+  background-color:rgba(220,220,220,0.2);
+  //background-color: rgba(56, 56, 56, .5);
+  background-image: url('../images/bg_po.jpg');
+  background-size: cover;
+}
+.floor{
+  //overflow: auto;
+  height: 500px;
+  top: 18%;
+  border: none;
+  -webkit-perspective: 780px;
+   perspective: 800px;
+}
+#inst{
+  position: absolute;
+  z-index: 4;
+  top: 20px;
+  right: 35px;
+  background-color: #009966;
+  padding: 10px;
+  border: none;
+  color: #fff;
+  border-radius: 4px;
+  cursor: pointer;
+}
+#inst:hover{
+  background-color: #00aa77;
+  border-bottom: 2px solid #0099cc;
+}
+.Avaliable p{
+  background-color: #45ef45;
+  box-shadow: 0px 0px 8px rgba(0, 0, 0, 0.6);
+  color: #fff;
+  border-radius: 4px;
+}
+.Reserved{cursor:not-allowed;}
+.Reserved p{
+  box-shadow: 0px 0px 8px rgba(0, 0, 0, 0.6);
+  border-radius: 4px;
+  background-color: #ef4242;
+  color: #fff;
+}
+.Broken p{
+  box-shadow: 0px 0px 8px rgba(0, 0, 0, 0.6);
+  border-radius: 4px;
+  background-color: #ffcc00;
+  color: #fff;
+}
+.Broken {
+  background-image: url("../images/broken.jpg");
+  background-position:bottom;
+  background-repeat: no-repeat;
+}
+.plate{
+  background-image: url("../images/plate2.jpg");
+  font-family:"28 Days Later";
+  font-size: 38px;
+  background-size:contain;
+}
+
+.Reserved{cursor:pointer;}
+.Occupied p{
+  box-shadow: 0px 0px 8px rgba(0, 0, 0, 0.6);
+  border-radius: 4px;
+  background-color: #4285F4;
+  color: #fff;
+}
+.Handicap p{
+  border-radius: 4px;
+  background-color: #0066ff;
+  color: #fff;
+}
+.Handicap{
+  background-image: url("../images/handi.png");
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+.tranRota{
+  transform-style: preserve-3d;
+  animation: tranRota 1s ease-in-out;
+    border: 4px dashed #444;
+    box-shadow: 0px 0px 8px rgba(0, 0, 0, 0.6) inset;
+}
+.tranRotaB{
+  transform-style: preserve-3d;
+  animation: tranRotaB 1s ease-in-out;
+}
+.tranRota:hover{
+  background-color: #fec301;
+}
+.tranRota a{
+  margin: auto;
+  margin-top: 2px;
+  display: block;
+  padding: 2px;
+  width: 90px;
+  background-color: #101010;
+  color: #fed136;
+}
+@keyframes tranRota{
+  from{transform: rotateX(0deg);
+    background-color: rgba(40, 40, 40, .7);
+        }
+  to{transform: rotateX(180deg);
+    background-color: rgba(40, 40, 40, .7);
+  }
+}
+@keyframes tranRotaB{
+  from{transform: rotateX(0deg);
+    background-color: rgba(40, 40, 40, .7);
+        }
+  to{transform: rotateX(-180deg);
+    background-color: rgba(40, 40, 40, .7);
+  }
+}
+#notification{
+  display: block;
+  padding: 4px;
+  background-color: rgba(30, 30, 30, .5);
+  color: white;
+}

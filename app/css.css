@@ -1,0 +1,106 @@
+center {
+  width: 610px;
+  margin: auto;
+}
+.dow{
+  margin-top: 152px;
+  width: 200px;
+  height: 350px;
+ float: left;
+  padding: 10px;
+}
+.win {
+  border: none;
+  border-radius: 10px;
+  border-right: 8px solid #1ab2ff;
+  background-color: #656565;
+}
+.app{
+  border: none;
+  border-top: 1px solid #A5A5A5;;
+  border-bottom: 1px solid #A5A5A5;;
+}
+.win img{
+  cursor: pointer;
+  filter: invert(60%);
+}
+.win img:hover{
+  filter: invert(80%);
+}
+ .win:hover{
+  background-color: #323232;
+}
+ .win:hover img{
+   filter: invert(80%);
+ }
+.win span{
+  cursor: pointer;
+  background-color: #00A1F1;
+  display: block;
+  width: 150px;
+  height: 70px;
+  padding: 10px;
+  padding-top: 17px;
+  border-radius: 4px;
+  color: white;
+  font-size:20px;
+  margin-top: 100px;
+  font-family: sans-serif;
+  box-sizing: border-box;
+  transition: .1s;
+}
+
+.app span{
+    background: -webkit-linear-gradient(#e6e6e6, #f2f2f2); /* For Safari 5.1 to 6.0 */
+    background: -o-linear-gradient(#e6e6e6, #f2f2f2); /* For Opera 11.1 to 12.0 */
+    background: -moz-linear-gradient(#e6e6e6, #f2f2f2); /* For Firefox 3.6 to 15 */
+    background: linear-gradient(#e6e6e6, #f2f2f2); /* Standard syntax */
+    color: black;
+}
+.win span:hover{
+  background-color: #1ab2ff;
+  border-bottom: 6px solid #0088cc;
+}
+.app span:hover{
+  background: -webkit-linear-gradient(#f2f2f2, #e6e6e6); /* For Safari 5.1 to 6.0 */
+  background: -o-linear-gradient(#f2f2f2, #e6e6e6); /* For Opera 11.1 to 12.0 */
+  background: -moz-linear-gradient(#f2f2f2, #e6e6e6); /* For Firefox 3.6 to 15 */
+  background: linear-gradient(#f2f2f2, #e6e6e6); /* Standard syntax */
+  border-bottom: 6px solid #bfbfbf;
+}
+.and{
+  border: none;
+  border-left: 8px solid #7cbb00;
+}
+.and span{
+  background-color: #7cbb00;
+}
+.and span:hover{
+  background-color: #88cc00;
+  border-bottom: 6px solid #77b300;
+}
+.clearfix::after{
+  content:"";
+  display:table;
+  clear:both;
+}
+#phone {
+  position: absolute;
+  width: 178.9995px;
+  height: 350px;
+  right: 50px;
+  top: 150px;
+
+}
+#parking{
+  position:absolute;
+  left: 10px;
+  top: 150px;
+}
+.thenW{
+  position: fixed;
+  text-align: center;
+  padding: 40px;
+  color: #aaa;
+  bottom: 0;
+}

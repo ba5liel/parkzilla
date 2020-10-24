@@ -1,0 +1,126 @@
+
+.floor{
+  text-align: center;
+  position: relative;
+  display: block;
+  top: 170px;
+  margin: -200px auto;
+  border: 1px solid #bbb;
+  background-color: rgba(56, 56, 56, .5);
+  width: 800px;
+  height: 500px;
+}
+.slot{
+  position: absolute;
+  z-index: 2;
+  cursor: pointer;
+  width: 30%;
+  font-size: 24px;
+  border: 4px dashed #fed136;
+  height: 45%;
+  background-color: rgba(0, 153, 230, .7);
+  background-color: rgba(40, 40, 40, .7);
+  box-shadow: 0px 0px 8px rgba(0, 0, 0, 0.6) inset;
+}
+.slot:hover{
+  background-color: rgba(30, 30, 30, .5);
+}
+ul.pagination {
+    position: absolute;
+    left:-52px;
+    display: block;
+    padding: 0;
+    margin: 0;
+}
+
+ul.pagination li {display: block; margin-bottom: 10px;}
+
+ul.pagination li a {
+    color: black;
+    cursor: pointer;
+    font-size: 24px;
+    padding: 8px 16px;
+    text-decoration: none;
+    transition: background-color .3s;
+}
+
+ul.pagination li a.active {
+    background-color: #fed136;
+    color: white;
+}
+
+ul.pagination li a:hover:not(.active) {background-color: #aaa;color: black;}
+.show{
+  display: block;
+}
+.Avaliable p{
+  box-shadow: 0px 0px 8px rgba(0, 0, 0, 0.6);
+  background-color: #45ef45;
+  color: #fff;
+  border-radius: 4px;
+}
+.Reserved p{
+  box-shadow: 0px 0px 8px rgba(0, 0, 0, 0.6);
+  border-radius: 4px;
+  background-color: #ef4242;
+  color: #fff;
+
+}
+.Reserved{cursor:not-allowed;}
+span.countDown{
+  font-size: 26px;
+  font-family:"OCR A Std";
+  color: #cecece;
+}
+.plate{
+  box-shadow: 0px 0px 8px rgba(0, 0, 0, 0.6);
+  color: #222222;
+  font-family:"OCR A Std";
+  text-transform:capitalize;
+  background-color: #ddd;
+  background-image: url("../images/plate.png");
+}
+.own p{
+  box-shadow: 0px 0px 8px rgba(0, 0, 0, 0.6);
+  background-color: #9966ff;
+  color: #fff;
+}
+.Handicap p{
+  box-shadow: 0px 0px 8px rgba(0, 0, 0, 0.6);
+  border-radius: 4px;
+  background-color: #0066ff;
+  box-shadow: 0px 0px 8px rgba(0, 0, 0, 0.6);
+  color: #fff;
+}
+.Handicap{
+  background-image: url("../images/handi.png");
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+.Broken p{
+  box-shadow: 0px 0px 8px rgba(0, 0, 0, 0.6);
+  border-radius: 4px;
+  background-color: #ffcc00;
+  color: #fff;
+}
+.Broken {
+  background-image: url("../images/broken.jpg");
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position:bottom;
+}
+.plate{
+  box-shadow: 0px 0px 8px rgba(0, 0, 0, 0.6);
+  background-image: url("../images/plate2.jpg");
+  font-family:"28 Days Later";
+  font-size: 38px;
+  background-repeat: no-repeat;
+  background-size:contain;
+}
+.Occupied p{
+  box-shadow: 0px 0px 8px rgba(0, 0, 0, 0.6);
+  border-radius: 4px;
+  background-color: #00ccff;
+  color: #fff;
+}

@@ -1,0 +1,52 @@
+<html>
+<head>
+<title> dropdown </title>
+<style>
+    .dropdown{
+        position: absolute;
+        display:block;
+        cursor:pointer;
+
+    }
+    .dropbtn{
+      background-color:#66ffcc;
+      color:#222;
+      padding:16px;
+
+    }
+    .content{
+      display:none;
+      position:absolute;
+      float:bottom;
+      margin-top:10px;
+      text-align:left;
+      padding:16px;
+      min-width: 56px;
+      background-color: #f2f2f2;
+    }
+    .dropdown:hover .content{
+      display:block;
+    }
+    .content a:hover{
+      background-color:#000;
+    }
+</style>
+</head>
+<body>
+  <div class="dropdown">
+    <a class="dropbtn">hover me</a>
+    <div class="content">
+      <a>link 1</a></br>
+      <a>link 2</a>
+    </div>
+  </div>
+<div style="margin-top: 300px; margin-bottom: 300px; " >sdsd</div>
+<img src="images/user.png" width="145" height="126" alt="Planets" usemap="#planetmap">
+
+<map name="planetmap">
+  <area shape="rect" coords="0,0,82,126" href="sun.htm" alt="Sun">
+  <area shape="circle" coords="90,58,3" href="mercur.htm" alt="Mercury">
+  <area shape="circle" coords="124,58,8" href="venus.htm" alt="Venus">
+</map>
+</body>
+</html>
